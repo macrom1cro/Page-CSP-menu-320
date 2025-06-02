@@ -55,7 +55,6 @@ body {
   box-shadow: 16px 0px 52px 0px #0e185033;
   background: var(--paleBackground);
   gap: 28px;
-  
 }
 .header {
   height: 88px;
@@ -80,6 +79,11 @@ body {
   border-radius: 20px;
   background-size: cover;
   cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+.button:hover {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0.6;
 }
 .button__close {
   background-image: url("./blocks/button/close.svg");
